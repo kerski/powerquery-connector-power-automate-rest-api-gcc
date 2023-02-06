@@ -219,7 +219,7 @@ GetJSON = (optional relPath as text) =>
         //Get Pages
         //Hard-coded Base URL because Power BI Service won't recognize parameter despite numerous attempts
         webSource = Web.Contents(
-            "https://api.flow.microsoft.com",
+            "https://gov.api.flow.microsoft.us",
             params
         ),
         //Convert to Json

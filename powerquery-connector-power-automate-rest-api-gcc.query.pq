@@ -3,7 +3,7 @@
 shared MyExtension.UnitTest = 
 [
     // Get Table of Functions
-    Source = NavigationTable.Simple(),
+    Source = POWERAUTOMATERESTAPIGCC.FunctionCatalog(),
 
     /*** TEST VARIABLES ***/
     EnvId = "{INSERT ENVIRONMENT ID}",

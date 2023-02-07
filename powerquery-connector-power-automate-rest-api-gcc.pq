@@ -2,7 +2,7 @@
 section POWERAUTOMATERESTAPIGCC;
 
 [DataSource.Kind="POWERAUTOMATERESTAPIGCC", Publish="POWERAUTOMATERESTAPIGCC.Publish"]
-shared NavigationTable.Simple = () =>
+shared POWERAUTOMATERESTAPIGCC.FunctionCatalog = () =>
 let
     objects = #table(
         {"Name","Key","Data","ItemKind","ItemName","IsLeaf"},
@@ -236,7 +236,7 @@ GetFlows = (optional EnvId as text, optional Parameters as text) =>
 
 // Data Source Kind description
 POWERAUTOMATERESTAPIGCC = [
-    TestConnection = (dataSourcePath) => { "POWERAUTOMATERESTAPIGCC.GetEnvironments"},
+    TestConnection = (dataSourcePath) => { "POWERAUTOMATERESTAPIGCC.FunctionCatalog"},
     Authentication = [
         Aad = [
             AuthorizationUri = "https://login.windows.net/common/oauth2/authorize",

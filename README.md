@@ -88,6 +88,7 @@ Not all functions from the Power Automate REST API have been implemented.  Here 
 | Get Environments | Returns the environments available to the requestor. IsDefault parameter identifies the default environment (true value).  |
 | Get Personal Flows | Returns the Personal flows (shown as Cloud Flows in the Power Automate interface) for a specific environment.  |
 | Get Team Flows | Returns the Team flows (shown as Shared With Me in the Power Automate interface) for a specific environment.  |
+| Get Flow | Returns the flow's specific details including triggers, steps, and connections.  |
 | Get Flow Runs | Returns the flow runs for a specific Flow ID.  If no parameters are supplied it will retrieve the latest 50 runs.  |
 
 ### On-Premises Gateway
